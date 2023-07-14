@@ -1,1 +1,14 @@
+The functions provided in this code employ the Kirkwood-Superposition-Principle for determining the triplet correlation:
+ 
+    g(r,s,t): Where r is the distance between p1 to p2, s the distance between p1 and p3, and t the distance between p2 and p3.
+    In this case p1 is the central particle with neighbors p1 and p2.
+    Both the self and non-self correlation functions assume r=s, with t being determined by the angle formed between the vectors p1:p2 and p1:p3
+    Consequently the distance "t" is determined based upon the cosine rule as t**2 = r**2 *( 2 *( 1 -cos(theta)))
+    g(r,s,t) whre r=s=t implies an equilateral configuration with a theta = 60 degrees.
+    
+Authors: Andres Ordorica Fernandez
 
+This functions are  distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
