@@ -1,0 +1,21 @@
+The coordinate file (*.gro) and trajectory (*.trr) were produced using:
+
+A- Gromacs simulation engine
+Van Der Spoel, D., Lindahl, E., Hess, B., Groenhof, G., Mark, A.E. and Berendsen, H.J.C. (2005), 
+GROMACS: Fast, flexible, and free. 
+J. Comput. Chem., 26: 1701-1718.
+ https://doi.org/10.1002/jcc.20291
+
+B- The simulation consists of water molecules modelled with the SPC/E force field
+
+(2) Structure and Dynamics of the TIP3P, SPC, and SPC/E Water Models at 298 K
+Pekka Mark and Lennart Nilsson
+The Journal of Physical Chemistry A 2001 105 (43), 9954-9960
+https://doi.org/10.1021/jp003020w
+
+C- 1 Nacl ion pair modelled with the Lochte force field: 
+
+(1) Loche, P.; Steinbrunner, P.; Friedowitz, S.; Netz, R. R.; Bonthuis, D. J. 
+Transferable Ion Force Fields in Water from a Simultaneous Optimization of Ion Solvation and Ion–Ion Interaction. 
+J. Phys. Chem. B 2021, 125 (30), 8581–8587.
+ https://doi.org/10.1021/acs.jpcb.1c05303.
